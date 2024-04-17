@@ -1,0 +1,228 @@
+*{
+          margin: 0;
+          padding:0;
+          font-family: 'Poppins', sans-serif;
+          box-sizing: border-box;
+          color: #000000;
+}
+
+body{
+          padding: 30px 100px;
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+          height: 100vh;
+          align-items: center;
+          background: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0,0,0,0.2)), url(images/background.jpg) no-repeat;
+          background-size: cover;
+          background-position: fixed;
+          background-attachment: fixed;
+          overflow: hidden;
+
+          
+}
+.nav-bar{
+          display: flex;
+          width: 100%;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 60px;
+          
+}
+.nav-bar .logo h1{
+          color: #ffffff;
+          letter-spacing: 2px;
+}
+.nav-bar h2{
+          color: #ffffff;
+          letter-spacing: 2px;
+          background: linear-gradient(45deg, #27c4c2 0%, #1bc654 100%);
+          padding: 5px 15px;
+          border-radius: 25px;
+          font-size: 20px;
+          font-weight: 600;
+}
+.nav-bar .controls ul{
+          display: flex;
+          flex-direction: row;
+          list-style: none;
+          
+}
+.nav-bar .controls ul li{
+          margin: 0 20px;
+          font-size: 20px;
+          color: #ffffff;
+}
+.container{
+          background-color: #ffffff;
+          width: 40rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          height: 50rem;
+          border-radius: 2rem;
+          padding: 1.5rem;
+          overflow: auto;
+          box-shadow: 0 14.5px 32px 13px rgba(0, 0, 0, 0.25);
+}
+.container .socials .username{
+          display: flex;
+          align-items: center;
+}
+.container .socials .socmeds img{
+          width: 1.8rem;
+          margin: 0 0.1rem;
+}
+.container .socials .socmeds{
+          display: flex;
+          align-items: center;
+
+}
+.container .socials {
+          width: 100%;
+          align-items: center;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+}
+.container .profile{
+          display: flex;
+          align-items: center;
+          width: 100%;
+          justify-content: space-between;
+}
+.container .profile .pic-name{
+          display: flex;
+          flex-direction: column;
+          line-height: 25px;
+          align-items: center;
+}
+.container .profile .pic-name h1{
+          font-size: 28px;
+          font-weight: 550;
+          letter-spacing: 2px;
+}
+.container .profile .follow{
+          display: flex;
+          justify-content: space-evenly;
+          width: 70%;
+}
+.container .profile .follow .wew{
+          line-height: 1.2;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+}
+.container .profile .follow .wew h3{
+          letter-spacing: 4px;
+          font-size: 25px;
+          
+}
+.container .edit-prof{
+          display: flex;
+          width: 100%;
+          align-items: center;
+          justify-content: space-between;
+}
+.container .edit-prof h4{
+
+          background-color: #dbdbdb;
+          width: 270px;
+          font-weight: 450;
+          text-align: center;
+          padding: 5px;
+          border-radius: 7px;
+
+}
+.container .edit-prof span{
+          background-color: #dbdbdb;
+          font-size: 25px;
+          padding: 4.5px;
+          border-radius: 7px;
+}
+.container .highlights{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+}
+hr{
+          border: 1px solid rgb(0, 0, 0, 0.3);
+          width: 95%;
+}
+h2{
+    font-weight: 500;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+    color: #000000;
+    align-items: center;
+}
+
+.container .self-intro, .educ-background, .expertise{
+    margin: 20px 0;
+}
+.container .self-intro p{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    font-weight: 250;
+}
+
+.container .educ-background table,th,td{
+    text-align: center;
+    border-collapse: collapse;
+    border:.5px solid rgba(0, 0, 0, 0.3);
+    padding: 5px;
+}
+.container .educ-background table{
+    font-weight: 300;
+}
+th{
+    background-color: rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+
+}
+.container .expertise{
+    width: 100%;
+
+}
+
+.expertise ul{
+    width: 100%;
+    padding-left: 2.5rem;
+}
+.expertise ul li{
+    width: fit-content;
+}
+
+.container .application-used{
+    width: 100%;
+
+}
+
+.application-used ul{
+    width: 100%;
+    padding-left: 2.5rem;
+}
+.application-used ul li{
+    width: fit-content;
+
+}
+
+li:hover{
+    background-color: whitesmoke;
+    color: black;
+    transform: scale(1.05);
+    transition: 0.5s ease;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 1);
+    font-weight: 600;
+    
+}
+
+img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease; 
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
